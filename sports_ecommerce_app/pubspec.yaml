@@ -1,0 +1,16 @@
+name: sports_ecommerce_app
+description: Sports Accessories E-Commerce Flutter App
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.2
+
+flutter:
+  uses-material-design: true
+
