@@ -7,6 +7,7 @@
 ![Provider](https://img.shields.io/badge/State%20Management-Provider-purple)
 ![SharedPreferences](https://img.shields.io/badge/Local%20Storage-SharedPreferences-yellow)
 ![Material Design](https://img.shields.io/badge/UI-Material%20Design-blue)
+![License](https://img.shields.io/badge/License-Educational-lightgrey)
 # 🏏 Sports E-Commerce Flutter App
 
 A professional Flutter-based mini e-commerce application focused exclusively on **Sports Accessories**.
