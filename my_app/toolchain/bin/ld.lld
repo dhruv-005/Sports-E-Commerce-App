@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ -x /usr/bin/ld.lld ]]; then
+  exec /usr/bin/ld.lld "$@"
+fi
+
+for lld_bin in /usr/lib/llvm-*/bin/ld.lld; do
+  if [[ -x "$lld_bin" ]]; then
+    exec "$lld_bin" "$@"
+  fi
+done
+
+exec /usr/bin/ld "$@"

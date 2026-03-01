@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ -x /usr/bin/llvm-ar ]]; then
+  exec /usr/bin/llvm-ar "$@"
+fi
+
+for ar_bin in /usr/lib/llvm-*/bin/llvm-ar; do
+  if [[ -x "$ar_bin" ]]; then
+    exec "$ar_bin" "$@"
+  fi
+done
+
+exec /usr/bin/ar "$@"
