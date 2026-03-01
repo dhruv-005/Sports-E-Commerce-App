@@ -1,3 +1,12 @@
+
+![Flutter](https://img.shields.io/badge/Flutter-Framework-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-Language-blue?logo=dart)
+![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)
+![iOS](https://img.shields.io/badge/Platform-iOS-black?logo=apple)
+![REST API](https://img.shields.io/badge/API-REST-orange)
+![Provider](https://img.shields.io/badge/State%20Management-Provider-purple)
+![SharedPreferences](https://img.shields.io/badge/Local%20Storage-SharedPreferences-yellow)
+![Material Design](https://img.shields.io/badge/UI-Material%20Design-blue)
 # 🏏 Sports E-Commerce Flutter App
 
 A professional Flutter-based mini e-commerce application focused exclusively on **Sports Accessories**.
