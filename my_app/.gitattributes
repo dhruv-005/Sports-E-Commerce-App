@@ -1,0 +1,22 @@
+# Ignore Flutter platform folders
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+build/** linguist-vendored
+
+# Ignore C/C++ explicitly
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+*.cc linguist-vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Ignore Swift
+*.swift linguist-vendored
+
+# Ignore Shell
+*.sh linguist-vendored
