@@ -1,0 +1,1 @@
+ /home/kali/my_app/build/9f32d4611ec73f9a2b4c5568a68fae86/dart_build_result.json:  /home/kali/flutter/bin/cache/dart-sdk/version /home/kali/my_app/.dart_tool/package_config.json /home/kali/my_app/pubspec.yaml
